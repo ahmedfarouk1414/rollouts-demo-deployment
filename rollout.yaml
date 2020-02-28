@@ -32,7 +32,7 @@ spec:
               path: /
               port: http
   strategy:
-#     blueGreen:
+# #    blueGreen:
 #       activeService: rollouts-demo
 #       previewService: rollouts-demo-preview
      canary: 
